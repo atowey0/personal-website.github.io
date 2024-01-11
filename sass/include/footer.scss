@@ -1,0 +1,39 @@
+#footer {
+    padding-top: 65px;
+    padding-bottom: 10px;
+    background: gray;
+    background-color: $primary-color;
+
+    .footer-container {
+        max-width: 900px;
+        padding: 50px 30px;
+        margin: 0 auto;
+        background-color: #F4EBD7;
+
+        span {
+            font-size: 18px;
+            font-weight: 200;
+
+            a {
+                color: $second-color;
+            }
+        }
+
+        .footer-img {
+            padding-top: 30px;
+        }
+
+    }
+
+    .footer-content {
+        max-width: 900px;
+        margin: auto;
+
+        p {
+            color: #fff;
+            padding-top: 30px;
+
+        }
+
+    }
+}

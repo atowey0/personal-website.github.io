@@ -1,0 +1,14 @@
+{
+  "name": "jaffar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass ./sass/style.scss ./css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.0"
+  },
+  "description": ""
+}

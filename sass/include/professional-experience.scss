@@ -1,0 +1,63 @@
+#professional-experience {
+  padding: 60px 0px;
+
+  .professional-experience-header {
+    h1 {
+      color: $primary-color;
+      font-family: $font-fraunces;
+      font-size: 3rem;
+      white-space: nowrap;
+      font-style: italic;
+      letter-spacing: -1px;
+      font-weight: 600;
+
+      @media screen and (max-width: 766px) {
+        font-size: 2.15rem;
+      }
+
+      @media screen and (max-width: 425px) {
+        font-size: 2.2rem;
+      }
+    }
+  }
+
+  .professional-experience-img {
+    img {
+      width: 140px;
+    }
+  }
+
+  .professional-experience-content {
+    padding: 20px 48px;
+
+    @media screen and (max-width: 545px) {
+      padding: 20px 0px;
+    }
+
+    h4 {
+      font-family: $font-fraunces;
+      color: $primary-color;
+    }
+
+    span {
+      font-size: 19px;
+      font-weight: 300;
+      font-family: $font-worksans;
+    }
+
+    p {
+      font-style: italic;
+      font-family: $font-fraunces;
+      font-weight: 300;
+      font-size: 17px;
+    }
+
+    ul {
+      li {
+        font-size: 16px;
+        font-family: $font-worksans;
+        font-weight: 300;
+      }
+    }
+  }
+}
