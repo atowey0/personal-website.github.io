@@ -15,6 +15,9 @@ li {
   font-weight: 100;
 }
 
+a {
+  color: var(--maroon);
+
 strong {
   font-family: "Fraunces", serif;
   font-size: 16px;
