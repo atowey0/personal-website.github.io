@@ -69,6 +69,11 @@ h1.section-header {
   font-weight: 600;
   font-variation-settings: "opsz" 9;
 }
+
+a {
+  color: var(--maroon);
+}
+
 @media screen and (max-width: 766px) {
   h1.section-header {
     font-size: 2.15rem;
